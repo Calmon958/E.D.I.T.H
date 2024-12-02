@@ -60,7 +60,7 @@ def process_command():
         response = "Hello Sir, what do you have for me today?"
         log_message(response)
         speak(response)
-        else:
+    else:
             response = "I didn't quite catch that. Could you repeat?"
             log_message(response)
             speak(response)
